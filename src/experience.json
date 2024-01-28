@@ -1,0 +1,66 @@
+[
+    {
+      "id": 1,
+      "company": "IcubesWire Pvt Limited",
+      "designation": "Software Engineer",
+      "duration": "June 12th, 2023 to Present",
+      "location": "Gurgaon, Hariyana",
+      "image": "https://www.icubeswire.com/assets/images/icb-home.jpg.pagespeed.ce.dxR7oTqu9D.jpg",
+      "details": [{
+        "project": "Unified App-Website",
+        "technology": "React JS, Redux, Typescript, Vue 3 Composition API",
+        "highlights": [
+          "* Developed a responsive user interface using React.js and Redux.",
+          "* Designed and developed Dashboards using Vue 3 composition API.",
+          "* Optimized system architecture, reducing AWS cost by 60%.",
+          "* Worked on Real-Time chat using Firebase Realtime Database."
+        ]
+      }]
+    },
+    {
+      "id": 2,
+      "company": "Tech Mahindra",
+      "designation": "Software Engineer",
+      "duration": "July 15th, 2021 to June 5th, 2023",
+      "location": "Noida, UP",
+      "image": "https://e7.pngegg.com/pngimages/437/17/png-clipart-tech-mahindra-business-corporation-logo-innovation-tech-mahindra-logo-text-logo.png",
+      "details": [{
+        "project": "Trugreen",
+        "technology": "JavaScript, React JS, Redux, Node JS, MongoDB, Drupal",
+        "highlights": [
+          "* Developed TruGreen website for lawn-related facilities.",
+          "* Integrated Apple Pay using Stripe Payment Gateway.",
+          "* Optimized existing codebase by 25% using DeBounce concept."
+        ]
+      },
+      {
+        "project": "ADL-OWS-DEV",
+        "technology": "Core Java, MySQL, Mainframe, Scripting Tool",
+        "highlights": [
+          "* Integrated applications in AT&T's networking domain for client, AT&T Inc.",
+          "* Running script and resolving error using Mainframe.",
+          "* Analyzed business and functional requirements to optimize application loads through design patterns and Data Structures.",
+          "* Followed the Test Driven Development (TDD) approach and covered more than 80% of corner cases."
+        ]
+      }
+    ]
+    },
+    {
+      "id": 3,
+      "company": "Image InfoSystem Pvt. Limited",
+      "designation": "Software Programmer",
+      "duration": "Oct 2nd, 2020 to July 1st, 2021",
+      "location": "Delhi",
+      "image": "data:image/jpeg;base64,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",
+      "details": [{
+        "project": "Apna Farm",
+        "technology": "React JS, Redux, Node JS, MongoDB, Typescript, JavaScript",
+        "highlights": [
+          "* Designed and developed a responsive React.js web app for movie search.",
+          "* Optimized codebase for improved performance and scalability.",
+          "* Handled code review, pull requests, and code deployment using Jira."
+        ]
+      }]
+    }
+  ]
+  

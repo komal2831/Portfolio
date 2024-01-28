@@ -1,0 +1,20 @@
+[
+    {
+        "project": "Unified App-Website",
+        "technology": "React JS, Redux , Typescript and Vue 3 Composition API",
+        "description": "This website comprises three models: Influencer, Affiliate, and DSP, designed to manage the digital marketing process.",
+        "icon":"fa-solid fa-leaf"
+    },
+    {
+        "project": "Apna Farm",
+        "technology": "React JS, Redux, Node JS, MongoDB, Typescript, JavaScript",
+        "description": "I utilize this website to manage the maintenance of lawn areas and, based on the size of the lawn, offer customers suggestions regarding suitable types of plants or trees.",
+        "icon":"fa-solid fa-leaf"
+    },
+    {
+        "project": "Trugreen",
+        "technology": "JavaScript , React JS, Redux , Node JS, MongoDB and Drupal",
+        "description": "TruGreen is a website that aids customers by providing comprehensive services related to lawn care.",
+        "icon":"fa-solid fa-leaf"
+    }
+]
