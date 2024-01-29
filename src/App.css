@@ -224,13 +224,13 @@ img {
   background-color: #ffffff; /* Set your desired background color */
 }
 .btn {
-  background-color: #d3d61d;
+  background-color: #144b7f;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 7px;
   text-align: center;
-  font-size: 17px;
-  margin: 6px auto;
-  color: black;
+  font-size: 14px;
+  margin: 4px auto;
+  color: white;
 }
 
 /*----------------------------------------
@@ -477,6 +477,8 @@ img {
   display: inline-block;
   float: right;
   margin-right: 10px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .professional-progress li {
@@ -489,8 +491,8 @@ img {
 
 .mainDiv { 
   height: 0.2rem;
-  width: 620px;
-  background-color: whitesmoke;
+  max-width: 620px;
+  background-color: rgb(187, 183, 183);
   border-radius: 12px;
   margin: 0.2rem;
 }
@@ -786,4 +788,14 @@ textarea.input-field {
 
 .App {
   text-align: center;
+}
+/*--Emoji section--*/
+.fun
+{
+  margin-bottom: 2rem;
+  width: 100% 
+}
+.gif
+{
+  max-width: 100%;
 }

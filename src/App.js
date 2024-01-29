@@ -1,5 +1,9 @@
 import "./App.css";
 import logo from "./img/komal_photo.jpeg";
+import emoji1 from "./img/chicken.gif";
+import emoji2 from "./img/panda.gif";
+import emoji3 from "./img/poo.gif";
+import emoji4 from "./img/unicorn.gif";
 import resume from "./komal_resume.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
@@ -126,8 +130,8 @@ const App = () => {
               <div className="avatar-hero">
                 <img src={logo} alt="avatar-hero" />
               </div>
-              <h1>Hi, I'm Komal Singh</h1>
-              <h2 className="typer-title">I'm full stack Developer</h2>
+              <h1>Hi, I am Komal Singh</h1>
+              <h2 className="typer-title">I am full stack Developer</h2>
             </div>
           </div>
         </div>
@@ -375,19 +379,19 @@ const App = () => {
             </div>
 
             <div className="col-xs-12 col-md-6">
-              <h3>Technical Skills</h3>
+              <h3 className="pb-5">Technical Skills</h3>
               {lang.map((item) => (
                 <div>
-                  <p className="progress-bar-text">{item.language}</p>
-                  <div className="progress-cont">
-                    <span>{item.percent}%</span>
-                  </div>
                   <div className="mainDiv">
                     <div
                       className="childDiv"
                       style={{ width: `${item.percent}%` }}
                     ></div>
                   </div>
+                  <div className="progress-cont">
+                    <span>{item.percent}%</span>
+                  </div>
+                  <p className="progress-bar-text text-left">{item.language}</p>
                 </div>
               ))}
             </div>
@@ -420,12 +424,14 @@ const App = () => {
         </div>
       </section>
 
-      <section id="experience" className="container section one-page-section">
-        {/* ... (Your existing JSX code) */}
-        <div className="container row">
+      <section id="experience" className="section one-page-section">
+        <div className="section-title">
+          <h2>EXPERIENCE</h2>
+        </div>
+        <div className="row px-5">
           {ExperienceData.map((experience) => (
             <div className="col-md-4 py-2" key={experience.id}>
-              <div className="card p-1 bg-light">
+              <div className="card p-1 bg-light pb-3">
                 <img
                   style={{ height: 200 }}
                   className="card-img-top"
@@ -455,7 +461,7 @@ const App = () => {
                     </span>
                   </p>
                   <a
-                    className="btn btn-outline-secondary"
+                    className="btn-fill btn-primary text-light"
                     onClick={() => openDialog(experience.id)}
                   >
                     See Profile
@@ -575,7 +581,7 @@ const App = () => {
               <div className="map">
                 <form action="https://formspree.io/f/mbjnlykn" method="post">
                   <div className="row py-2">
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 py-2">
                       <input
                         type="text"
                         name="First Name"
@@ -586,7 +592,7 @@ const App = () => {
                       />
                       {/* <span className="Fname-error text-center mb-30"></span> */}
                     </div>
-                    <div className="col-sm-6 ">
+                    <div className="col-sm-6 py-2">
                       <input
                         type="text"
                         name="Last Name"
@@ -641,7 +647,7 @@ const App = () => {
 
                   <div className="row">
                     <div className="col-sm-12">
-                      <button type="submit" className="submit-btn btn">
+                      <button type="submit" className="btn-fill btn-primary">
                         Send Message
                       </button>
                     </div>
@@ -655,7 +661,7 @@ const App = () => {
                 <div id="map" className="shadow">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.690585487206!2d77.04312769628028!3d28.398411991233115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d23086ad05983%3A0x9e6f90a688f17d8b!2sRoyal%20PG%20%7C%20PG%20in%20Gurgaon%20%7C%20Best%20Boys%20%26%20Girls%20PG%20Sector%2069%20Gurgaon%20%7C%20PG%20Near%20Genpact%20Badshahpur%20%7C%20Luxury%20Furnished%20PG!5e0!3m2!1sen!2sin!4v1705293170079!5m2!1sen!2sin"
-                    width="600"
+                    className="w-100"
                     height="450"
                     loading="lazy"
                   ></iframe>
