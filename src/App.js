@@ -456,7 +456,6 @@ const App = () => {
                     </span>
                   </p>
                   <a
-                    href="#"
                     className="btn btn-outline-secondary"
                     onClick={() => openDialog(experience.id)}
                   >
@@ -574,7 +573,7 @@ const App = () => {
             <div className="col-sm-12 col-md-6">
               <div className="map">
                 <form action="https://formspree.io/f/mbjnlykn" method="post">
-                  <div className="row">
+                  <div className="row py-2">
                     <div className="col-sm-6">
                       <input
                         type="text"
@@ -584,7 +583,7 @@ const App = () => {
                         required="required"
                         placeholder="First Name"
                       />
-                      <span className="Fname-error text-center mb-30"></span>
+                      {/* <span className="Fname-error text-center mb-30"></span> */}
                     </div>
                     <div className="col-sm-6">
                       <input
@@ -595,11 +594,11 @@ const App = () => {
                         required="required"
                         placeholder="Last Name"
                       />
-                      <span className="Lname-error text-center mb-30"></span>
+                      {/* <span className="Lname-error text-center mb-30"></span> */}
                     </div>
                   </div>
 
-                  <div className="row">
+                  <div className="row  py-2">
                     <div className="col-sm-12">
                       <input
                         type="email"
@@ -609,11 +608,11 @@ const App = () => {
                         required="required"
                         placeholder="Email"
                       />
-                      <span className="email-error text-center mb-30"></span>
+                      {/* <span className="email-error text-center mb-30"></span> */}
                     </div>
                   </div>
 
-                  <div className="row">
+                  <div className="row  py-2">
                     <div className="col-sm-12">
                       <input
                         type="number"
@@ -622,11 +621,11 @@ const App = () => {
                         className="input-field rounded"
                         placeholder="Phone No."
                       />
-                      <span className="phone-error text-center mb-30"></span>
+                      {/* <span className="phone-error text-center mb-30"></span> */}
                     </div>
                   </div>
 
-                  <div className="row">
+                  <div className="row  py-2">
                     <div className="col-sm-12">
                       <textarea
                         name="Message"
@@ -635,7 +634,7 @@ const App = () => {
                         required="required"
                         placeholder="Message"
                       ></textarea>
-                      <span className="message-error text-center mb-30"></span>
+                      {/* <span className="message-error text-center mb-30"></span> */}
                     </div>
                   </div>
 
