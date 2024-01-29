@@ -351,7 +351,6 @@ const App = () => {
             <div className="col-sm-12 col-md-6 skills-section">
               <div className="professional-skills">
                 <h3>Professional Skills</h3>
-
                 <ul className="professional-progress">
                   {percentage.map((item) => (
                     <li
@@ -425,7 +424,7 @@ const App = () => {
         {/* ... (Your existing JSX code) */}
         <div className="container row">
           {ExperienceData.map((experience) => (
-            <div className="col-md-4" key={experience.id}>
+            <div className="col-md-4 py-2" key={experience.id}>
               <div className="card p-1 bg-light">
                 <img
                   style={{ height: 200 }}
@@ -478,12 +477,14 @@ const App = () => {
                     },
                     content: {
                       position: "absolute",
-                      top: "40%",
+                      top: "50%",
                       left: "50%",
                       transform: "translate(-50%, -50%)",
+                      width: "80%",
+                      maxWidth: "600px",
                       overflow: "auto",
                       padding: "25px",
-                      backgroundColor: "white", // Adjust the background color as needed
+                      backgroundColor: "white",
                       borderRadius: "20px",
                     },
                   }}
@@ -585,7 +586,7 @@ const App = () => {
                       />
                       {/* <span className="Fname-error text-center mb-30"></span> */}
                     </div>
-                    <div className="col-sm-6">
+                    <div className="col-sm-6 ">
                       <input
                         type="text"
                         name="Last Name"
