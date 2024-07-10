@@ -1,9 +1,27 @@
 [
     {
       "id": 1,
+      "company": "Recrosoft Technologies",
+      "designation": "Senior Software Engineer",
+      "duration": "March 14th, 2024 to Present",
+      "location": "Banglore",
+      "image": "https://recro.io/static/assets/og-image.png",
+      "details": [{
+        "project": "Price and Promo",
+        "technology": "React Js, TypeScript, JavaScript GraphQl, Redux, Hooks",
+        "highlights": [
+          "* Analyzed performance data and optimized legacy frontend code for website, improving query caching.",
+          "* Integrating Apple Pay using Stripe Payment Gateway.",
+          "* Implemented DeBounce concept to optimizing the existing system codebase by 25%.",
+          "* Designed & implemented quality-of-service dashboards and performance frameworks to dynamically detect performance growth."
+        ]
+      }]
+    },
+    {
+      "id": 1,
       "company": "IcubesWire Pvt Limited",
       "designation": "Software Engineer",
-      "duration": "June 12th, 2023 to Present",
+      "duration": "June 12th, 2023 to March 13th, 2024",
       "location": "Gurgaon, Hariyana",
       "image": "https://www.icubeswire.com/assets/images/icb-home.jpg.pagespeed.ce.dxR7oTqu9D.jpg",
       "details": [{

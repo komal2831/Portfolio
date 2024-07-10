@@ -1,8 +1,19 @@
-[
+[     {
+    "project": "Unified App-Website",
+    "technology": "React JS, Redux , Typescript and Vue 3 Composition API",
+    "description": "This website comprises three models: Influencer, Affiliate, and DSP, designed to manage the digital marketing process.",
+    "icon":"fa-solid fa-leaf"
+    },
     {
-        "project": "Unified App-Website",
-        "technology": "React JS, Redux , Typescript and Vue 3 Composition API",
-        "description": "This website comprises three models: Influencer, Affiliate, and DSP, designed to manage the digital marketing process.",
+        "project": "Price and Promo",
+        "technology": "React JS, Redux , Typescript, Javascript and GraphQL",
+        "description": "Asper unlocks revenue growth for customers through a purpose-built AI to enable interconnected decisions. We understand the challenges companies face in making decisions at speed and scale. With the right mix of talent and technology, we help organizations overcome those challenges and become adaptive intelligent enterprises.",
+        "icon":"fa-solid fa-leaf"
+    },
+    {
+        "project": "ADL-OWS-DEV",
+        "technology": "Core Java, MySQL, Mainframe, Scripting Tool",
+        "description": " Integrated applications in AT&T’s networking domain for client, AT&T Inc. nalyzed business and functional requirements to optimize application loads through design patterns and Data Structures.",
         "icon":"fa-solid fa-leaf"
     },
     {
