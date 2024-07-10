@@ -18,7 +18,7 @@
       }]
     },
     {
-      "id": 1,
+      "id": 2,
       "company": "IcubesWire Pvt Limited",
       "designation": "Software Engineer",
       "duration": "June 12th, 2023 to March 13th, 2024",
@@ -36,7 +36,7 @@
       }]
     },
     {
-      "id": 2,
+      "id": 3,
       "company": "Tech Mahindra",
       "designation": "Software Engineer",
       "duration": "July 15th, 2021 to June 5th, 2023",
@@ -64,7 +64,7 @@
     ]
     },
     {
-      "id": 3,
+      "id": 4,
       "company": "Image InfoSystem Pvt. Limited",
       "designation": "Software Programmer",
       "duration": "Oct 2nd, 2020 to July 1st, 2021",
